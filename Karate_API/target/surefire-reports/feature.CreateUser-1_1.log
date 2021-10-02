@@ -1,0 +1,30 @@
+19:47:06.356 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:47:07.555 request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 26
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_91-3-ojdkbuild)
+{"name":"Amit","job":"QA"}
+
+19:47:08.604 response time in milliseconds: 1023.88
+1 < 201
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 680bc3a76db64933-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 76
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 18 Aug 2021 14:17:12 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jDRJL%2FEMnf%2FABcCIB15AkuOrzaR%2B1tg6xQ9nfNFxgtdN8KTO0Y6BkyVBv0ePayPhrC8dPxIlWGOLqEuI5SQkfP2jDs%2FVaktQ1xAVenWcvZ5R5kC0Mzq6tBSzxIw%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < access-control-allow-origin: *
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < etag: W/"4c-5GWA8UHqJCKXyt5z6tm3l71Mn2I"
+1 < via: 1.1 vegur
+1 < x-powered-by: Express
+{"name":"Amit","job":"QA","id":"294","createdAt":"2021-08-18T14:17:11.904Z"}
+
